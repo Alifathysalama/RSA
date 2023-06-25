@@ -16,7 +16,6 @@ other FPGA resources such as DSP slices and BRAM.
 The top-level architecture diagram should be similar to the following:
 ![image](https://github.com/Alifathysalama/RSA/assets/104265727/5f6e48e3-f5bf-49ee-881d-384bd3082cb3)
 
-here is the Synthesis of the project 
 ![image](https://github.com/Alifathysalama/RSA/assets/104265727/541a6193-6b27-45df-828a-aff0a922b455)
 ![image](https://github.com/Alifathysalama/RSA/assets/104265727/246c4843-e3b5-44cd-b5be-1c788630db4f)
 
