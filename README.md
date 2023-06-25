@@ -14,9 +14,12 @@ exponentiation, and modulo (remainder) operation.
 The focus of this project is to utilize as few SLICEs/CLBs as possible. This is done by making good usage of
 other FPGA resources such as DSP slices and BRAM.
 The top-level architecture diagram should be similar to the following:
+
+
 ![image](https://github.com/Alifathysalama/RSA/assets/104265727/5f6e48e3-f5bf-49ee-881d-384bd3082cb3)
 
 ![image](https://github.com/Alifathysalama/RSA/assets/104265727/541a6193-6b27-45df-828a-aff0a922b455)
+
 ![image](https://github.com/Alifathysalama/RSA/assets/104265727/246c4843-e3b5-44cd-b5be-1c788630db4f)
 
 
@@ -29,3 +32,8 @@ by the following equation:
 There are also Start and Done signals that are used to start the operation and indicate that it has
 finished the operation, respectively.
 As for the modulo operation, it will be done using a BRAM implementation for the module.
+
+The testbench of the design was tested by giving 28^60 mod 28 which will give zero expected:
+
+![image](https://github.com/Alifathysalama/RSA/assets/104265727/e0b528b4-2396-4f71-b152-42f5f9230194)
+
